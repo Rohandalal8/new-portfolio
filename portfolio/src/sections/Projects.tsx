@@ -2,6 +2,7 @@ import { useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import TitleHeader from "../components/TitleHeader";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -126,8 +127,7 @@ const Projects = () => {
             <div className="w-full">
                 <div className="projects-label">
                     <p className="text-lg md:text-xl text-blue-100 text-center mb-10 xl:mt-0"> 
-                        <span className="loader"></span>
-                        PROJECTS
+                        <TitleHeader title="PROJECTS" />
                     </p>
                 </div>
                 <div className="showcaselayout" onMouseLeave={handleMouseLeave}>

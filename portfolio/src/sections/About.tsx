@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 import AnimatedCounter from "../components/AnimatedCounter.tsx";
+import TitleHeader from "../components/TitleHeader.tsx";
 
 const About = () => {
     const aboutRef = useRef<HTMLElement | null>(null);
@@ -55,8 +56,7 @@ const About = () => {
             {/* Top Label */}
             <div className="about-label">
                 <p className="text-lg md:text-xl text-blue-100 text-center mt-15 xl:mt-0 xl:pt-20">
-                    <span className="loader"></span>
-                    ABOUT
+                    <TitleHeader title="ABOUT ME" />
                 </p>
             </div>
 

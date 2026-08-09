@@ -221,11 +221,11 @@ section {
   }
 
   .timeline {
-    @apply absolute z-30 h-[110%] -top-10 w-14 md:w-28 bg-black;
+    @apply absolute z-30 h-[110%] -top-10 right-6 md:right-10 xl:right-3 w-14 md:w-28 bg-black;
   }
 
   .timeline-logo {
-    @apply md:size-20 size-10 flex-none rounded-full flex justify-center items-center md:-translate-y-7 border border-black-50 bg-black-100;
+    @apply md:size-15 size-10 flex-none rounded-full flex justify-center items-center border border-black-50 bg-black-100;
   }
 
   .exp-card-wrapper {
@@ -343,6 +343,8 @@ section {
 /* Hero Text slider ends */
 
 .gradient-line {
+  position: absolute;
+  right: 55px;
   width: 2px;
   background: linear-gradient(
     0deg,
@@ -449,37 +451,25 @@ section {
   opacity: 1;
 }
 
-/* LOADER */
-.loader {
-  margin-right: 20px;
-  width: 30px;
-  height: 30px;
-  position: relative;
+.card-bordr {
+    --angle: 0deg;
+
+    position: relative;
+    overflow: hidden;
+
+    border: 1px solid transparent;
+
+    background:
+        linear-gradient(#0a0a0a, #0a0a0a) padding-box,
+        conic-gradient(
+            from var(--angle),
+            transparent 0deg,
+            transparent 280deg,
+            #6366f1 320deg,
+            #818cf8 340deg,
+            transparent 360deg
+        ) border-box;
+
+    transition: background 0.15s ease;
 }
 
-.loader:before , .loader:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: #dbeafe4a;
-  transform: translate(-50% , -100%)  scale(0);
-  animation: push_401 2s infinite linear;
-}
-
-.loader:after {
-  animation-delay: 1s;
-}
-
-@keyframes push_401 {
-  0% , 50% {
-    transform: translate(-50% , 0%)  scale(1)
-  }
-
-  100% {
-    transform: translate(-50%, -100%) scale(0)
-  }
-}
