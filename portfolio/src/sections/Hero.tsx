@@ -3,6 +3,7 @@ import { words } from "../constants/index.ts";
 import Button from "../components/Button.tsx";
 import {useGSAP} from "@gsap/react";
 import gsap from "gsap";
+
 gsap.registerPlugin(useGSAP);
 
 const Hero = () => {

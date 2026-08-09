@@ -50,11 +50,12 @@ const About = () => {
         <section
             ref={aboutRef}
             id="about"
-            className="w-full xl:min-h-screen text-white px-5 md:px-10 xl:px-45"
+            className="app-showcase flex-col xl:min-h-screen"
         >
             {/* Top Label */}
             <div className="about-label">
-                <p className="text-lg md:text-xl text-blue-100 text-center mt-15 xl:mt-0">
+                <p className="text-lg md:text-xl text-blue-100 text-center mt-15 xl:mt-0 xl:pt-20">
+                    <span className="loader"></span>
                     ABOUT
                 </p>
             </div>

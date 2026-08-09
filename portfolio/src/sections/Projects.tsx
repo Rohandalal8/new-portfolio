@@ -122,11 +122,12 @@ const Projects = () => {
     }, []);
 
     return (
-        <section id="work" ref={sectionRef} className="app-showcase xl:min-h-screen">
+        <section id="projects" ref={sectionRef} className="app-showcase xl:min-h-screen">
             <div className="w-full">
                 <div className="projects-label">
-                    <p className="text-lg md:text-xl text-blue-100 text-center mb-10 xl:mt-0">
-                        SHOWCASE
+                    <p className="text-lg md:text-xl text-blue-100 text-center mb-10 xl:mt-0"> 
+                        <span className="loader"></span>
+                        PROJECTS
                     </p>
                 </div>
                 <div className="showcaselayout" onMouseLeave={handleMouseLeave}>
