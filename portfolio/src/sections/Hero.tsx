@@ -36,7 +36,7 @@ const Hero = () => {
         gsap.fromTo(".hero-text h1", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 1, stagger: 0.2, ease: "power2.inOut" });
         gsap.fromTo(".description", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 1, stagger: 0.2, ease: "power2.inOut", delay: 0.5 });
         gsap.fromTo(".see-my-work-btn", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 1, stagger: 0.2, ease: "power2.inOut", delay: 0.7 });
-        gsap.fromTo(".animated-card img", { x: 100, opacity: 0 }, { x: 0, opacity: 1, duration: 2, stagger: 0.2, ease: "power2.inOut" });
+        gsap.fromTo(".animated-card img", { y: 100, opacity: 0 }, { y: 0, opacity: 1, duration: 2, stagger: 0.2, ease: "power2.inOut" });
     }, []);
 
     return (

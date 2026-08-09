@@ -40,15 +40,6 @@ const About = () => {
                         stagger: 0.15,
                     },
                     "-=0.9"
-                ).from(
-                    ".counter-wrapper",
-                    {
-                        y: 100,
-                        opacity: 0,
-                        duration: 1,
-                        stagger: 0.2,
-                    },
-                    "-=0.3"
                 );
         }, aboutRef);
 
@@ -59,7 +50,7 @@ const About = () => {
         <section
             ref={aboutRef}
             id="about"
-            className="w-full xl:min-h-screen bg-black text-white px-5 md:px-10 xl:px-45"
+            className="w-full xl:min-h-screen text-white px-5 md:px-10 xl:px-45"
         >
             {/* Top Label */}
             <div className="about-label">
@@ -111,9 +102,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="counter-wrapper">
-                <AnimatedCounter />
-            </div>
+            <AnimatedCounter />
         </section>
     );
 };
