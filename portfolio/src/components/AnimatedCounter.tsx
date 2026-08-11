@@ -1,4 +1,4 @@
-import { counterItems } from '../constants/index.ts';
+import { counterItems } from '../constants/index.tsx';
 import { useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

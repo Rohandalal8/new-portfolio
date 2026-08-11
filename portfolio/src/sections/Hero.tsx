@@ -1,5 +1,5 @@
-import { useState, useLayoutEffect, useRef } from "react";
-import { words } from "../constants/index.ts";
+import { useState} from "react";
+import { words } from "../constants/index.tsx";
 import Button from "../components/Button.tsx";
 import {useGSAP} from "@gsap/react";
 import gsap from "gsap";

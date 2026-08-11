@@ -1,6 +1,6 @@
 import GlowCard from "../components/GlowCard.tsx";
 import TitleHeader from "../components/TitleHeader";
-import { expCards } from "../constants/index.ts";
+import { expCards } from "../constants/index.tsx";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -37,6 +37,19 @@ const Achievements = () => {
                 },
         },
     })
+
+    gsap.utils.toArray(".expText").forEach((text: any) => {
+        gsap.from(text, {
+            xPercent: 0,
+            opacity: 0,
+            duration: 1,
+            ease: "power2.inOut",
+            scrollTrigger: {
+                trigger: text,
+                start: "top 60%"
+            },
+        })
+        })
     }, []);
 
     return (
@@ -47,7 +60,7 @@ const Achievements = () => {
                     <div className="relative z-50 xl:space-y-32 space-y-10">
                         {expCards.map((card, index) => (
                             <div key={card.college} className="exp-card-wrapper">
-                                <div className="xl:w-2/6">
+                                <div className="xl:w-2/6 z-35">
                                     <GlowCard card={{ ...card, date: Number(card.date) }} index={index} />
                                 </div>
                                 <div className="xl:w-4/6">
