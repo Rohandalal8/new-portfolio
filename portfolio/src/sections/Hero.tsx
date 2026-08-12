@@ -1,7 +1,6 @@
-import { useState} from "react";
+import { useState } from "react";
 import { words } from "../constants/index.tsx";
-import Button from "../components/Button.tsx";
-import {useGSAP} from "@gsap/react";
+import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 gsap.registerPlugin(useGSAP);
@@ -68,7 +67,17 @@ const Hero = () => {
                         <p className="description text-white-50 md:text-xl relative z-10 pointer-events-none">
                             Hi, I'm Rohan, a Full Stack Developer with a passion for crafting innovative digital experiences.
                         </p>
-                        <Button className="see-my-work-btn md:w-80 md:h-16 w-60 h-12" id="button" text="See My Work" />
+                        <a href="#projects" className="cta-wrapper">
+                            <button className="see-my-work-btn md:w-80 md:h-16 w-60 h-12">
+                                <div className="cta-button group">
+                                    <div className="bg-circle" />
+                                    <p className="text">See My Work</p>
+                                    <div className="arrow-wrapper">
+                                        <img src="/images/arrow-down.svg" alt="arrow" />
+                                    </div>
+                                </div>
+                            </button>
+                        </a>
                     </div>
                 </header>
 

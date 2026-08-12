@@ -4,6 +4,7 @@ import Projects from "./sections/Projects";
 import NavBar from "./components/Navbar";
 import Achievements from "./sections/Achievements";
 import Skills from "./sections/Skills";
+import Contact from "./sections/Contact";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Projects />
       <Skills />
       <Achievements />
+      <Contact />
     </>
   )
 }

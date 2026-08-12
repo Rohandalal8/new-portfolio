@@ -2,7 +2,6 @@ import { useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import TitleHeader from "../components/TitleHeader";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -126,8 +125,8 @@ const Projects = () => {
         <section id="projects" ref={sectionRef} className="app-showcase xl:min-h-screen">
             <div className="w-full">
                 <div className="projects-label">
-                    <p className="text-lg md:text-xl text-blue-100 text-center mb-10 xl:mt-0"> 
-                        <TitleHeader title="PROJECTS" />
+                    <p className="text-blue-100 mb-10 xl:mt-0 flex justify-center items-center font-semibold md:text-5xl text-3xl text-center"> 
+                        PROJECTS
                     </p>
                 </div>
                 <div className="showcaselayout" onMouseLeave={handleMouseLeave}>

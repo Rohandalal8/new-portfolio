@@ -1,5 +1,4 @@
 import { techStack } from "../constants/index.tsx";
-import TitleHeader from "../components/TitleHeader";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -76,8 +75,8 @@ const Skills = () => {
     return (
         <section id="skills" className="tech-stack-section">
             <div className="tech-header">
-                <p className="text-lg md:text-xl text-blue-100 text-center mb-10 xl:mt-0">
-                    <TitleHeader title="TECH STACK" />
+                <p className="text-blue-100 mb-10 xl:mt-0 flex justify-center items-center font-semibold md:text-5xl text-3xl text-center"> 
+                        TECH STACK
                 </p>
 
                 <p className="subtitle text-white-50">

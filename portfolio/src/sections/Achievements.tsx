@@ -1,5 +1,4 @@
 import GlowCard from "../components/GlowCard.tsx";
-import TitleHeader from "../components/TitleHeader";
 import { expCards } from "../constants/index.tsx";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -55,7 +54,9 @@ const Achievements = () => {
     return (
         <section id="achievements" className="flex-center md:mt-40 mt-20 section-padding xl:px-0">
             <div className="w-full h-full pt-10 xl:pt-20 px-5 xl:px-40">
-                <TitleHeader title="ACHIEVEMENTS" />
+                <p className="text-blue-100 mb-10 xl:mt-0 flex justify-center items-center font-semibold md:text-5xl text-3xl text-center"> 
+                        ACHIEVEMENTS
+                    </p>
                 <div className="mt-12 relative">
                     <div className="relative z-50 xl:space-y-32 space-y-10">
                         {expCards.map((card, index) => (
