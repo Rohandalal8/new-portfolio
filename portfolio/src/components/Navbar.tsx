@@ -290,10 +290,10 @@ const Navbar = () => {
                     <span>SOCIAL</span>
                 </div>
                 <nav className="mobile-nav">
-                    <a href="https://github.com/rohan" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Github</a>
-                    <a href="https://linkedin.com/in/rohan" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>LinkedIn</a>
-                    <a href="https://instagram.com/rohan" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Instagram</a>
-                    <a href="https://x.com/rohan" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>X</a>
+                    <a href="https://github.com/rohandalal8" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Github</a>
+                    <a href="https://linkedin.com/in/rohan-dalal-7214172bb" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>LinkedIn</a>
+                    <a href="https://instagram.com/rohndalal" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Instagram</a>
+                    <a href="https://x.com/rohandalal08" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>X</a>
                 </nav>
             </aside>
         </header>

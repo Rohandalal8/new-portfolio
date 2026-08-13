@@ -59,7 +59,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="mt-16 grid-12-cols">
+                <div className="mt-16 mb-20 grid-12-cols">
                     <div className="xl:col-span-5">
                         <div className="flex-center card-border rounded-xl p-5 xl:p-10">
                             <form ref={formRef} onSubmit={handleSubmit} className="w-full flex flex-col gap-7">
@@ -113,9 +113,10 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="grid-4-cols mt-20 pb-20">
+                <div className="hidden md:grid grid-4-cols pb-20">
                     <div className="light-button flex-center">
-                        <button className="bt">
+                        <a href="https://www.instagram.com/rohndalal" target="_blank" rel="noopener noreferrer">
+                            <button className="bt">
                             <div className="light-holder">
                                 <div className="dot"></div>
                                 <div className="light"></div>
@@ -132,8 +133,10 @@ const Contact = () => {
                                 <p>Instagram</p>
                             </div>
                         </button>
+                        </a>
                     </div>
                     <div className="light-button flex-center">
+                        <a href="https://github.com/rohandalal8" target="_blank" rel="noopener noreferrer">
                         <button className="bt">
                             <div className="light-holder">
                                 <div className="dot"></div>
@@ -151,8 +154,10 @@ const Contact = () => {
                                 <p>GitHub</p>
                             </div>
                         </button>
+                        </a>
                     </div>
                     <div className="light-button flex-center">
+                        <a href="https://www.linkedin.com/in/rohan-dalal-7214172bb" target="_blank" rel="noopener noreferrer">
                         <button className="bt">
                             <div className="light-holder">
                                 <div className="dot"></div>
@@ -178,8 +183,10 @@ const Contact = () => {
                                 <p>LinkedIn</p>
                             </div>
                         </button>
+                        </a>
                     </div>
                     <div className="light-button flex-center">
+                        <a href="https://twitter.com/rohandalal08" target="_blank" rel="noopener noreferrer">
                         <button className="bt">
                             <div className="light-holder">
                                 <div className="dot"></div>
@@ -197,6 +204,7 @@ const Contact = () => {
                                 <p>Twitter</p>
                             </div>
                         </button>
+                        </a>
                     </div>
                 </div>
 

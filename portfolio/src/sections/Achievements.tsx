@@ -54,7 +54,7 @@ const Achievements = () => {
     return (
         <section id="achievements" className="flex-center md:mt-40 mt-20 section-padding xl:px-0">
             <div className="w-full h-full pt-10 xl:pt-20 px-5 xl:px-40">
-                <p className="text-blue-100 mb-10 xl:mt-0 flex justify-center items-center font-semibold md:text-5xl text-3xl text-center"> 
+                <p className="text-blue-100 flex justify-center items-center font-semibold md:text-5xl text-3xl text-center tracking-[0.05em] uppercase relative w-fit mx-auto pb-3 after:content-[''] after:absolute after:left-1/2 after:-bottom-1 after:-translate-x-1/2 after:w-16 after:h-[2px] after:bg-gradient-to-r after:from-transparent after:via-indigo-400 after:to-transparent after:shadow-[0_0_12px_rgba(99,102,241,0.8)] ">
                         ACHIEVEMENTS
                     </p>
                 <div className="mt-12 relative">

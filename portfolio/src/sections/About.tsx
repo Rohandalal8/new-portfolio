@@ -54,8 +54,8 @@ const About = () => {
         >
             {/* Top Label */}
             <div className="about-label">
-                <p className="text-blue-100 mb-10 xl:mt-0 flex justify-center items-center font-semibold md:text-5xl text-3xl text-center"> 
-                        ABOUT ME
+                <p className="text-blue-100 flex justify-center items-center font-semibold md:text-5xl text-3xl text-center tracking-[0.05em] uppercase relative w-fit mx-auto pb-3 after:content-[''] after:absolute after:left-1/2 after:-bottom-1 after:-translate-x-1/2 after:w-16 after:h-[2px] after:bg-gradient-to-r after:from-transparent after:via-indigo-400 after:to-transparent after:shadow-[0_0_12px_rgba(99,102,241,0.8)] ">
+                    ABOUT ME
                 </p>
             </div>
 
