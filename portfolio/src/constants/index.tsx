@@ -39,116 +39,6 @@ const counterItems = [
   { value: "Fast", suffix: "", label: "Delivery" },
 ];
 
-const logoIconsList = [
-  {
-    imgPath: "/images/logos/company-logo-1.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-3.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
-  },
-];
-
-const abilities = [
-  {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
-  },
-  {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
-  },
-  {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
-  },
-];
-
-const techStackImgs = [
-  {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
-  },
-  {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
-  },
-  {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
-  },
-  {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
-  },
-  {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
-  },
-];
-
-const techStackIcons = [
-  {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
-  },
-  {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
-  },
-];
-
 const expCards = [
   {
     college: "JECRC University, Jaipur",
@@ -174,89 +64,6 @@ const expCards = [
     description: "Won 3rd prize and a cash award of ₹5,000 for an innovative solution at CodeSangam 2023.",
     about: "Got 3rd Position in CodeSangam 2023, a thrilling experience where we showcased our coding skills and creativity. Grateful for the recognition and the opportunity to compete with talented minds!"
   }
-];
-
-const expLogos = [
-  {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
-  },
-  {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
-  },
-  {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
-  },
-];
-
-const testimonials = [
-  {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
-  },
-  {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
-  },
-];
-
-const socialImgs = [
-  {
-    name: "insta",
-    url: "https://www.instagram.com/",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    url: "https://www.facebook.com/",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    url: "https://www.x.com/",
-    imgPath: "/images/x.png",
-  },
-  {
-    name: "linkedin",
-    url: "https://www.linkedin.com/",
-    imgPath: "/images/linkedin.png",
-  },
 ];
 
 const techStack = [
@@ -351,18 +158,9 @@ const techStack = [
     name: "HTML",
     icon: (
       <svg viewBox="0 0 32 32" className="w-7 h-7">
-        <path
-          fill="#E44D26"
-          d="M4 3h24l-2.2 25L16 31 6.2 28 4 3z"
-        />
-        <path
-          fill="#F16529"
-          d="M16 5v23.7l7.8-2.2L25.8 5H16z"
-        />
-        <path
-          fill="#fff"
-          d="M9 9h14l-.4 4H13.5l.3 3h8.4l-.9 8.5-5.3 1.5-5.3-1.5-.4-4h4l.2 1.8 1.5.4 1.5-.4.2-2.3H10L9 9z"
-        />
+        <path fill="#E44D26" d="M4 3h24l-2.2 25L16 31 6.2 28 4 3z" />
+        <path fill="#F16529" d="M16 5v23.7l7.8-2.2L25.8 5H16z" />
+        <path fill="#fff" d="M9 9h14l-.4 4H13.5l.3 3h8.4l-.9 8.5-5.3 1.5-5.3-1.5-.4-4h4l.2 1.8 1.5.4 1.5-.4.2-2.3H10L9 9z" />
       </svg>
     ),
   },
@@ -379,23 +177,9 @@ const techStack = [
   {
     name: "JavaScript",
     icon: (
-      <svg
-        viewBox="0 0 32 32"
-        className="w-7 h-7"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg viewBox="0 0 32 32" className="w-7 h-7" xmlns="http://www.w3.org/2000/svg" >
         <rect width="32" height="32" rx="2" fill="#F7DF1E" />
-
-        <text
-          x="3"
-          y="27"
-          fontSize="16"
-          fontWeight="900"
-          fontFamily="Arial, Helvetica, sans-serif"
-          fill="#000"
-        >
-          JS
-        </text>
+        <text x="3" y="27" fontSize="16" fontWeight="900" fontFamily="Arial, Helvetica, sans-serif" fill="#000" >JS</text>
       </svg>
     ),
   },
@@ -457,16 +241,9 @@ const techStack = [
     name: "Python",
     icon: (
       <svg viewBox="0 0 32 32" className="w-7 h-7">
-        <path
-          d="M16 3c-5 0-5 2.2-5 2.2v3.3h5v1H8.5C5 9.5 4 12 4 16s1 6.5 4.5 6.5H11v-3.8s0-3.2 3.2-3.2h5.3c0 0 3 0 3-3V8c0-3-2.5-5-6.5-5Z"
-          fill="#3776AB"
-        />
+        <path d="M16 3c-5 0-5 2.2-5 2.2v3.3h5v1H8.5C5 9.5 4 12 4 16s1 6.5 4.5 6.5H11v-3.8s0-3.2 3.2-3.2h5.3c0 0 3 0 3-3V8c0-3-2.5-5-6.5-5Z" fill="#3776AB" />
         <circle cx="13" cy="6" r="1" fill="white" />
-
-        <path
-          d="M16 29c5 0 5-2.2 5-2.2v-3.3h-5v-1h7.5c3.5 0 4.5-2.5 4.5-6.5s-1-6.5-4.5-6.5H21v3.8s0 3.2-3.2 3.2h-5.3c0 0-3 0-3 3V24c0 3 2.5 5 6.5 5Z"
-          fill="#FFD43B"
-        />
+        <path d="M16 29c5 0 5-2.2 5-2.2v-3.3h-5v-1h7.5c3.5 0 4.5-2.5 4.5-6.5s-1-6.5-4.5-6.5H21v3.8s0 3.2-3.2 3.2h-5.3c0 0-3 0-3 3V24c0 3 2.5 5 6.5 5Z" fill="#FFD43B" />
         <circle cx="19" cy="26" r="1" fill="white" />
       </svg>
     ),
@@ -475,18 +252,9 @@ const techStack = [
     name: "CSS",
     icon: (
       <svg viewBox="0 0 32 32" className="w-7 h-7">
-        <path
-          fill="#1572B6"
-          d="M4 3h24l-2.2 25L16 31 6.2 28 4 3z"
-        />
-        <path
-          fill="#33A9DC"
-          d="M16 5v23.7l7.8-2.2L25.8 5H16z"
-        />
-        <path
-          fill="white"
-          d="M9 9h14l-.4 4h-9.2l.3 3h8.6l-.9 8.5-5.4 1.5-5.3-1.5-.4-4h4l.2 1.8 1.5.4 1.5-.4.2-2.3H10L9 9z"
-        />
+        <path fill="#1572B6" d="M4 3h24l-2.2 25L16 31 6.2 28 4 3z" />
+        <path fill="#33A9DC" d="M16 5v23.7l7.8-2.2L25.8 5H16z" />
+        <path fill="white" d="M9 9h14l-.4 4h-9.2l.3 3h8.6l-.9 8.5-5.4 1.5-5.3-1.5-.4-4h4l.2 1.8 1.5.4 1.5-.4.2-2.3H10L9 9z" />
       </svg>
     ),
   },
@@ -494,18 +262,9 @@ const techStack = [
     name: "Firebase",
     icon: (
       <svg viewBox="0 0 32 32" className="w-7 h-7">
-        <path
-          d="M6 25.5 9.2 7.2c.2-1 1.5-1.3 2-.4l3.2 5.9 3.1-5.8c.5-.9 1.8-.6 2 .4l3.3 18.2L16 29 6 25.5Z"
-          fill="#FFA000"
-        />
-        <path
-          d="M9.2 7.2 6 25.5l10-3.3V12.7l-4.8-6c-.7-.9-1.8-.5-2 .5Z"
-          fill="#F57C00"
-        />
-        <path
-          d="m16 22.2 8.8 3.3L21.5 7.3c-.2-1-1.5-1.3-2-.4L16 12.7v9.5Z"
-          fill="#FFCA28"
-        />
+        <path d="M6 25.5 9.2 7.2c.2-1 1.5-1.3 2-.4l3.2 5.9 3.1-5.8c.5-.9 1.8-.6 2 .4l3.3 18.2L16 29 6 25.5Z" fill="#FFA000" />
+        <path d="M9.2 7.2 6 25.5l10-3.3V12.7l-4.8-6c-.7-.9-1.8-.5-2 .5Z" fill="#F57C00" />
+        <path d="m16 22.2 8.8 3.3L21.5 7.3c-.2-1-1.5-1.3-2-.4L16 12.7v9.5Z" fill="#FFCA28" />
       </svg>
     ),
   },
@@ -514,94 +273,29 @@ const techStack = [
     icon: (
       <svg viewBox="0 0 32 32" className="w-7 h-7">
         <circle cx="16" cy="16" r="13" fill="#FF6C37" />
-
-        <path
-          d="M20.5 10.5a6.5 6.5 0 0 0-8.9 9.4l-3.1 3.1
-           4.5-1.8a6.5 6.5 0 0 0 7.5-10.7Z"
-          fill="white"
-        />
-
+        <path d="M20.5 10.5a6.5 6.5 0 0 0-8.9 9.4l-3.1 3.1 4.5-1.8a6.5 6.5 0 0 0 7.5-10.7Z" fill="white" />
         <circle cx="17.5" cy="14.5" r="2.2" fill="#FF6C37" />
-
-        <path
-          d="M19.2 12.8 23 9"
-          stroke="#FF6C37"
-          strokeWidth="1.5"
-          strokeLinecap="round"
-        />
+        <path d="M19.2 12.8 23 9" stroke="#FF6C37" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
     ),
   },
   {
     name: "GitHub",
     icon: (
-      <svg
-        viewBox="0 0 24 24"
-        className="w-7 h-7"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.49.5.092.682-.217.682-.483
-        0-.237-.009-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.455-1.157-1.11-1.465-1.11-1.465
-        -.908-.62.069-.608.069-.608 1.004.07 1.532 1.03 1.532 1.03.892 1.53 2.341 1.088 2.91.832
-        .091-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683
-        -.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844
-        a9.56 9.56 0 0 1 2.504.337c1.909-1.294 2.748-1.025 2.748-1.025.546 1.377.202 2.394.1 2.647
-        .64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852
-        0 1.336-.012 2.415-.012 2.743 0 .268.18.58.688.482A10.001 10.001 0 0 0 22 12
-        C22 6.477 17.523 2 12 2Z"
-        />
+      <svg viewBox="0 0 24 24" className="w-7 h-7" fill="currentColor" xmlns="http://www.w3.org/2000/svg" >
+        <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.49.5.092.682-.217.682-.483 0-.237-.009-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.455-1.157-1.11-1.465-1.11-1.465 -.908-.62.069-.608.069-.608 1.004.07 1.532 1.03 1.532 1.03.892 1.53 2.341 1.088 2.91.832 .091-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683 -.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844 a9.56 9.56 0 0 1 2.504.337c1.909-1.294 2.748-1.025 2.748-1.025.546 1.377.202 2.394.1 2.647 .64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .268.18.58.688.482A10.001 10.001 0 0 0 22 12 C22 6.477 17.523 2 12 2Z" />
       </svg>
     ),
   },
   {
     name: "Java",
     icon: (
-      <svg
-        viewBox="0 0 32 32"
-        className="w-7 h-7"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        {/* Java cup */}
-        <path
-          d="M8 13h14v7.5c0 3.6-3 6.5-7 6.5s-7-2.9-7-6.5V13Z"
-          fill="#5382A1"
-        />
-
-        {/* Coffee */}
-        <path
-          d="M9 14h12v3H9z"
-          fill="#F89820"
-        />
-
-        {/* Handle */}
-        <path
-          d="M22 15h2.5c2 0 3.5 1.5 3.5 3.5S26.5 22 24.5 22H22"
-          fill="none"
-          stroke="#5382A1"
-          strokeWidth="2"
-          strokeLinecap="round"
-        />
-
-        {/* Steam */}
-        <path
-          d="M11 9c-2-2 2-3 0-5M16 9c-2-2 2-3 0-5M21 9c-2-2 2-3 0-5"
-          fill="none"
-          stroke="#F89820"
-          strokeWidth="1.5"
-          strokeLinecap="round"
-        />
-
-        {/* Base */}
-        <path
-          d="M7 28h18"
-          stroke="#5382A1"
-          strokeWidth="2"
-          strokeLinecap="round"
-        />
+      <svg viewBox="0 0 32 32" className="w-7 h-7" xmlns="http://www.w3.org/2000/svg" >
+        <path d="M8 13h14v7.5c0 3.6-3 6.5-7 6.5s-7-2.9-7-6.5V13Z" fill="#5382A1" />
+        <path d="M9 14h12v3H9z" fill="#F89820" />
+        <path d="M22 15h2.5c2 0 3.5 1.5 3.5 3.5S26.5 22 24.5 22H22" fill="none" stroke="#5382A1" strokeWidth="2" strokeLinecap="round" />
+        <path d="M11 9c-2-2 2-3 0-5M16 9c-2-2 2-3 0-5M21 9c-2-2 2-3 0-5" fill="none" stroke="#F89820" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M7 28h18" stroke="#5382A1" strokeWidth="2" strokeLinecap="round" />
       </svg>
     ),
   }
@@ -609,15 +303,8 @@ const techStack = [
 
 export {
   words,
-  abilities,
-  logoIconsList,
   counterItems,
   expCards,
-  expLogos,
-  testimonials,
-  socialImgs,
-  techStackIcons,
-  techStackImgs,
   navLinks,
   techStack,
 };

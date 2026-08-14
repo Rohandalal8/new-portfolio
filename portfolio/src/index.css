@@ -274,30 +274,6 @@ section {
       }
     }
   }
-
-  .footer {
-    @apply my-10 md:mt-20 mt-10 text-white-50 px-5 md:px-20 xl:px-20 flex items-center justify-center;
-
-    .footer-container {
-      @apply grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-0 w-full;
-    }
-
-    p {
-      @apply text-center md:text-start;
-    }
-
-    .socials {
-      @apply flex items-center justify-center gap-5;
-
-      .icon {
-        @apply border border-black-50 bg-black-100 flex justify-center items-center rounded-xl size-10 md:size-12 cursor-pointer transition-all duration-500 hover:bg-black-50;
-      }
-
-      img {
-        @apply inline-block;
-      }
-    }
-  }
 }
 
 /* Hero text slider starts */
@@ -537,21 +513,14 @@ section {
 /* Cards */
 
 .tech-card {
-    /* height: 78px; */
-
     display: flex;
     align-items: center;
     gap: 18px;
-
     padding: 24px;
-
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 18px;
-
     background: rgba(12, 18, 31, 0.8);
-
     flex-shrink: 0;
-
     transition: all 0.3s ease;
 }
 
