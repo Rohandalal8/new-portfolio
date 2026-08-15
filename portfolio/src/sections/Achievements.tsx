@@ -70,12 +70,12 @@ const Achievements = () => {
                                             <div className="timeline" />
                                             <div className="gradient-line w-1 h-full" />
                                         </div>
-                                        <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
+                                        <div className="flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                                             <div className="timeline-logo">
                                                 <img src={card.imgPath} alt={card.college} className="w-full h-full object-cover rounded-full"/>
                                             </div>
                                             <div>
-                                                <h3 className="text-xl font-bold text-white-50 md:pt-3">{card.about}</h3>
+                                                <h3 className="expText text-xl font-bold text-white-50 md:pt-3">{card.about}</h3>
                                             </div>
                                         </div>
                                     </div>
